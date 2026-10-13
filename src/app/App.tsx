@@ -7,5 +7,17 @@ import { Header } from '../features/navigation/components/Header'
 import { Works } from '../features/works/components/Works'
 
 export default function App() {
-  return <><Header /><main><Hero /><About /><Works /><Experience /><Contact /></main><Footer /></>
+  return (
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Works />
+        <Experience />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  )
 }
